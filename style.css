@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f4f6f9;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1110px;
+  margin: auto;
+}
+
+.page-title {
+  margin-bottom: 20px;
+  font-size: 32px;
+  font-weight: 700;
+  color: #002C5C;
+}
+
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin-bottom: 30px;
+}
+
+.dash-card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  text-align: left;
+  font-weight: bold;
+}
+.dash-card p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #323B49;
+    margin-bottom: 8px;
+}
+#totalCount{
+    font-size: 24px;
+    font-weight: 700;
+    background: linear-gradient(90deg, #002B70, #0060FA);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#interviewCount{
+    font-size: 24px;
+    font-weight: 700;
+    color: #10B981;
+
+}
+#rejectedCount{
+    font-size: 24px;
+    font-weight: 700;
+    color: #EF4444;
+
+}
+
+.jobs-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.tab {
+  padding: 10px 13.5px;
+  border: 1px solid #F1F2F4;
+  background: #FFFFFF;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.tab.active {
+  background: #3B82F6;
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: 600;
+}
+.tab .gray{
+    font-size: 12px;
+    font-weight: 500;
+    color: #64748B;
+}
+
+.job-list {
+  display: grid;
+  gap: 20px;
+}
+
+.job-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.job-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-icon {
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.status {
+  display: inline-block;
+  margin: 10px 0;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.not-applied {
+  background: #eee;
+}
+
+.interview-status {
+  background: #d4edda;
+  color: #155724;
+}
+
+.rejected-status {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.btn-group {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+
+}
+
+.interview {
+ background: none;
+  border: 1px solid #10B981;
+  color: #10B981;
+}
+
+.rejected {
+  background:none;
+  border: 1px solid #EF4444;
+  color: #EF4444;
+}
+
+.empty-state {
+  text-align: center;
+  margin-top: 40px;
+  color: gray;
+  display: none;
+}
+
