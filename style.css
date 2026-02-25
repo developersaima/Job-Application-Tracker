@@ -43,6 +43,11 @@ body {
     color: #323B49;
     margin-bottom: 8px;
 }
+.dashboard {
+  border-bottom: 1px solid #E6E7E9;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
 #totalCount{
     font-size: 24px;
     font-weight: 700;
@@ -90,7 +95,7 @@ body {
   font-size: 12px;
   font-weight: 600;
 }
-.tab .gray{
+.tab.gray{
     font-size: 12px;
     font-weight: 500;
     color: #64748B;
@@ -122,10 +127,10 @@ body {
 .status {
   display: inline-block;
   margin: 10px 0;
-  padding: 4px 10px;
-  border-radius: 20px;
-  font-size: 12px;
-  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .not-applied {
@@ -175,4 +180,23 @@ body {
   color: gray;
   display: none;
 }
+.jobs-section {
+  margin-top: 30px;
+}
 
+.jobs-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.jobs-header h3 {
+  margin: 0;
+}
+
+.job-count {
+  color: gray;
+  font-size: 14px;
+  margin-top: 5px;
+}
