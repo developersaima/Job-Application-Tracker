@@ -1,3 +1,4 @@
+
 Answers to Questions
 
 1️. Difference between getElementById, getElementsByClassName, querySelector, querySelectorAll
