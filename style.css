@@ -108,22 +108,45 @@ body {
 
 .job-card {
   background: white;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  padding: 24px;
 }
 
 .job-top {
+  font-family: 'Geist', sans-serif;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
+.job-top h3 {
+  font-size: 18px;
+  color: #002C5C;
+  line-height: 26px;
+  font-weight: 600; 
+  margin-bottom: 4px;
+}
+.job-top .role {
+  font-size: 16px;                  
+  line-height: 22px;                       
+  color: #64748B;                  
+  margin-bottom: 20px;                       
+}
+.job-top .meta {
+  font-size: 14px;                  
+  line-height: 20px;                       
+  color: #64748B;                  
+  margin-bottom: 20px;                       
+}
 .delete-icon {
   cursor: pointer;
   font-size: 18px;
 }
+.desc{
+  font-size: 14px;                  
+  line-height: 20px;                       
+  color: #323B49;                  
+  margin-bottom: 20px;                       
 
+}
 .status {
   display: inline-block;
   margin: 10px 0;
